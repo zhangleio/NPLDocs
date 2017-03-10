@@ -5,8 +5,15 @@ Welcome to NPL
    :maxdepth: 1
    :caption: Table of Content
 
+   wiki/Home
    wiki/_Sidebar
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Chinese Manual
+   
+   wiki/NPLGuide_zhCN
+   
 .. toctree::
    :maxdepth: 1
    :caption: What is NPL
