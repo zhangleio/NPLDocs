@@ -20,6 +20,7 @@ import os
 import sys
 import sphinx_rtd_theme
 from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 # sys.path.insert(0, os.path.abspath('.'))
 sys.path.append('../breathe')
 
@@ -161,4 +162,8 @@ texinfo_documents = [
 ]
 
 
-
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'url_resolver': lambda url: url + '/',
+            }, True)
+    app.add_transform(AutoStructify)
