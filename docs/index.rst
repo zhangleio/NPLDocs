@@ -51,7 +51,7 @@ Welcome to NPL
    wiki/ActivationFile
    wiki/Networking
    wiki/MultiThreading
-   wiki/Concurrency
+   wiki/Concurrency.md
    wiki/commonlib
    wiki/ObjectOriented
    wiki/DeployGuide
