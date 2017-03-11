@@ -164,6 +164,6 @@ texinfo_documents = [
 
 def setup(app):
     app.add_config_value('recommonmark_config', {
-            'url_resolver': lambda url: url.split('/')[1] + '.ht',
+            'url_resolver': lambda url: url.split('/')[1] + '.html',
             }, True)
     app.add_transform(AutoStructify)
