@@ -19,6 +19,7 @@
 import os
 import sys
 # sys.path.insert(0, os.path.abspath('.'))
+from recommonmark.transform import AutoStructify
 sys.path.append('../breathe')
 # -- General configuration ------------------------------------------------
 
@@ -51,9 +52,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Sphinx with Markdown'
-copyright = u'2016, Marijn van der Zee'
-author = u'Marijn van der Zee'
+project = u'NPL'
+copyright = u'2017, tatfook'
+author = u'Li Xizhi'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -236,7 +237,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SphinxwithMarkdowndoc'
+htmlhelp_basename = 'NPL'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -262,8 +263,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SphinxwithMarkdown.tex', u'Sphinx with Markdown Documentation',
-     u'Marijn van der Zee', 'manual'),
+    (master_doc, 'npl.tex', u'nplruntime documentation',
+     u'Li Xizhi', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -304,7 +305,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sphinxwithmarkdown', u'Sphinx with Markdown Documentation',
+    (master_doc, 'npl', u'NPLRuntime Documentation',
      [author], 1)
 ]
 
@@ -347,3 +348,9 @@ source_parsers = {
 }
 
 source_suffix = ['.rst', '.md']
+
+def setup(app):
+	app.add_config_value('recommonmark_config', {
+			'url_resolver': lambda url: url.split('/')[1]+'.html'
+			}, True)
+	app.add_transform(AutoStructify)
