@@ -5,119 +5,119 @@ Welcome to NPL
    :maxdepth: 1
    :caption: Table of Content
 
-   wiki/Home
-   wiki/_Sidebar
+   nplruntimewiki/Home
+   nplruntimewiki/_Sidebar
 
 .. toctree::
    :maxdepth: 1
    :caption: Chinese Manual
    
-   wiki/NPLGuide_zhCN
+   nplruntimewiki/NPLGuide_zhCN
    
 .. toctree::
    :maxdepth: 1
    :caption: What is NPL
 
-   wiki/WhatIsNPL
-   wiki/InstallGuide
-   wiki/projects
-   wiki/NPLVsLua
-   wiki/NPLArchitecture
+   nplruntimewiki/WhatIsNPL
+   nplruntimewiki/InstallGuide
+   nplruntimewiki/projects
+   nplruntimewiki/NPLVsLua
+   nplruntimewiki/NPLArchitecture
    
 
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started
    
-   wiki/GettingStarted
-   wiki/TutorialHelloWorld
-   wiki/TutorialWebSite
-   wiki/TutorialParacraftMod
-   wiki/SourceCodeOverview
-   wiki/NPLCodeWiki
-   wiki/DebugAndLog
-   wiki/NPLVisualStudioIDE
-   wiki/EmbeddingNPLRuntime
-   wiki/Plugins
+   nplruntimewiki/GettingStarted
+   nplruntimewiki/TutorialHelloWorld
+   nplruntimewiki/TutorialWebSite
+   nplruntimewiki/TutorialParacraftMod
+   nplruntimewiki/SourceCodeOverview
+   nplruntimewiki/NPLCodenplruntimewiki
+   nplruntimewiki/DebugAndLog
+   nplruntimewiki/NPLVisualStudioIDE
+   nplruntimewiki/EmbeddingNPLRuntime
+   nplruntimewiki/Plugins
    
 .. toctree::
    :maxdepth: 1
    :caption: Basic Concepts
    
-   wiki/BasicConcept
-   wiki/bootstrapper
-   wiki/NPLCommandLine
-   wiki/LoadFile
-   wiki/ActivationFile
-   wiki/Networking
-   wiki/MultiThreading
-   wiki/Concurrency.md
-   wiki/commonlib
-   wiki/ObjectOriented
-   wiki/DeployGuide
-   wiki/npl_packages
-   wiki/MetaProgramming
+   nplruntimewiki/BasicConcept
+   nplruntimewiki/bootstrapper
+   nplruntimewiki/NPLCommandLine
+   nplruntimewiki/LoadFile
+   nplruntimewiki/ActivationFile
+   nplruntimewiki/Networking
+   nplruntimewiki/MultiThreading
+   nplruntimewiki/Concurrency.md
+   nplruntimewiki/commonlib
+   nplruntimewiki/ObjectOriented
+   nplruntimewiki/DeployGuide
+   nplruntimewiki/npl_packages
+   nplruntimewiki/MetaProgramming
 
 .. toctree::
    :maxdepth: 1
    :caption: C/C++ NPL Runtime API
    
-   wiki/NPLRuntimeAPI
-   wiki/CoreAPI
-   wiki/AttributeSystem
-   wiki/AssetManifest
-   wiki/ParaObject
+   nplruntimewiki/NPLRuntimeAPI
+   nplruntimewiki/CoreAPI
+   nplruntimewiki/AttributeSystem
+   nplruntimewiki/AssetManifest
+   nplruntimewiki/ParaObject
 
 .. toctree::
    :maxdepth: 1
    :caption: System Libraries
    
-   wiki/system
-   wiki/Timer
-   wiki/Serialization
-   wiki/HTTP
-   wiki/Networking
-   wiki/FilesAndIO
-   wiki/MouseAndKeyInput
-   wiki/FiltersAndEvents
-   wiki/Localization
+   nplruntimewiki/system
+   nplruntimewiki/Timer
+   nplruntimewiki/Serialization
+   nplruntimewiki/HTTP
+   nplruntimewiki/Networking
+   nplruntimewiki/FilesAndIO
+   nplruntimewiki/MouseAndKeyInput
+   nplruntimewiki/FiltersAndEvents
+   nplruntimewiki/Localization
 
 .. toctree::
    :maxdepth: 1
    :caption: User Interface
    
-   wiki/UIOverview
-   wiki/DrawingAPI
-   wiki/System.Window
-   wiki/mcml 
+   nplruntimewiki/UIOverview
+   nplruntimewiki/DrawingAPI
+   nplruntimewiki/System.Window
+   nplruntimewiki/mcml 
 
 .. toctree::
    :maxdepth: 1
    :caption: 3D Programming
    
-   wiki/3DOverview
-   wiki/FileFormat
-   wiki/SceneManager
-   wiki/Camera
-   wiki/BlockEngine
+   nplruntimewiki/3DOverview
+   nplruntimewiki/FileFormat
+   nplruntimewiki/SceneManager
+   nplruntimewiki/Camera
+   nplruntimewiki/BlockEngine
 
 .. toctree::
    :maxdepth: 1
    :caption: Web Server
    
-   wiki/WebServer
-   wiki/NPLServerPage
-   wiki/AdminSiteFramework
-   wiki/UsingTableDatabase
-   wiki/UsingMySql
-   wiki/SecureDeployServer
+   nplruntimewiki/WebServer
+   nplruntimewiki/NPLServerPage
+   nplruntimewiki/AdminSiteFramework
+   nplruntimewiki/UsingTableDatabase
+   nplruntimewiki/UsingMySql
+   nplruntimewiki/SecureDeployServer
    
 .. toctree::
    :maxdepth: 1
    :caption: Resources
    
-   wiki/Resources
-   wiki/NPLPerformance
+   nplruntimewiki/Resources
+   nplruntimewiki/NPLPerformance
    
    
 .. _references:
