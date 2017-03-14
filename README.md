@@ -3,4 +3,4 @@
 # NPLDocs
 NPL documentation site hosted on [[https://readthedocs.org/projects/tatfook-npldocs]]
 
-To attach third-party NPL packages or wiki projects, please add git submodule to `docs` folder like [[docs/NPLRuntimeWiki]]
+To attach third-party NPL packages or wiki projects, please add git submodule to `docs` folder like `docs/NPLRuntimeWiki`
