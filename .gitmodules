@@ -1,3 +1,6 @@
 [submodule "docs/nplruntimewiki"]
 	path = docs/nplruntimewiki
 	url = https://github.com/LiXizhi/NPLRuntime.wiki.git
+[submodule "docs/nplcadwiki"]
+	path = docs/nplcadwiki
+	url = https://github.com/tatfook/NPLCAD.wiki.git
